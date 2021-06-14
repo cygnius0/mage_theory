@@ -1,0 +1,14 @@
+# Sludge:
+# charge
+raid_events+=/movement,players_only=1,cooldown=70,cooldown_stddev=5,distance=15,distance_min=5,distance_max=30,first=55
+# quaking
+raid_events+=/movement,players_only=1,cooldown=22.5,cooldown_stddev=2,distance=3,first=22
+# chain slam
+raid_events+=/movement,players_only=1,cooldown=10000,distance=20,first=150
+# vulnerability
+raid_events+=/vulnerable,cooldown=65,duration=10,first=70
+
+# longer fight length
+max_time=330
+vary_combat_length=0.03
+simulation_end=660
